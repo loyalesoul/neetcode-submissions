@@ -8,4 +8,4 @@ class Solution:
                 if i == len(word) or word[i] != char_to_match:
                     return strs[0][:i]
             
-        return strs[0]
+        return strs[0]  
